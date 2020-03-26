@@ -5,7 +5,6 @@
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-
 }
 body{
     font: 400 14px Roboto, sans-serif;
@@ -14,12 +13,12 @@ body{
 
 }
 input, button, textarea {
-    font: 400 18px Roboto, sans-serif;
+    font: 400 18px Roboto, sans-serif,;
 
 }
 button {
     cursor: pointer;
-
+    
 }
 form input {
     width: 100%;
@@ -53,7 +52,8 @@ form textarea {
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 60px; 
+    text-align: center;   
     transition: filter 0.2s;
 
 }
@@ -71,11 +71,9 @@ form textarea {
     font-weight: 500;
     transition: opacity 0.2s;
 
-}
-.back-link svg{
+}.back-link svg{
     margin-right: 8px;
 
-}
-.back-link:hover{
+}.back-link:hover{
     opacity: 0.8;
 }
