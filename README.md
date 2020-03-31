@@ -1,7 +1,7 @@
 # Be-The-Hero
-## Semana-Omnistack 11 and your Technologys
-### Technologies 💻
-#### NodeJs
-#### ReactJs
-#### React Native
-#### Expo
+![68747470733a2f2f75706c6f61646465696d6167656e732e636f6d2e62722f696d616765732f3030322f3535372f3632392f66756c6c2f686f6d652d7765622e504e473f31353835353233393930](https://user-images.githubusercontent.com/54643137/78060628-3d42d200-7362-11ea-92fb-49c20828b305.png)
+**Technologies** 💻
+**NodeJs**
+**ReactJs**
+**React Native**
+**Expo**
