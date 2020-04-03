@@ -13,12 +13,10 @@ body{
 
 }
 input, button, textarea {
-    font: 400 18px Roboto, sans-serif,;
-
+    font: 400 18px Roboto, sans-serif;
 }
 button {
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 form input {
     width: 100%;
@@ -31,7 +29,7 @@ form input {
 }
 form textarea {
     width: 100%;
-    resize: vertical;
+    resize: none;
     min-height: 140px;
     color: #333;
     border: 1px solid #dcdce6;
