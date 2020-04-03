@@ -2,7 +2,6 @@ import React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { View, Text, Image, TouchableOpacity, Linking } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
-
 import * as MailComposer from 'expo-mail-composer';
 
 import logoImg from '../../assets/logo.png';
@@ -22,8 +21,8 @@ export default function Detail(){
     function sendMail() {
         MailComposer.composeAsync({
            subject: `Herói do caso: ${incident.title}`,
-           recipients: [incident.email],
-           body: message,
+           recipients: [incident.email ],
+           body: messageToSend,
         })
     }
     function sendWhatsapp(){
